@@ -1,5 +1,13 @@
+import TabsA from './components/tabsA/TabsA';
+import TabsB from './components/tabsB/TabsB';
+
 const App = () => {
-	return <h1>Nucleo de la aplicación</h1>;
+	return (
+		<>
+			<TabsA />
+			<TabsB />
+		</>
+	);
 };
 
 export default App;
